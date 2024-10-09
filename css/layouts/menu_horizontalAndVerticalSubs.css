@@ -1,0 +1,10 @@
+.nfMain .nfItem {float:left !important;position:static  !important;}
+.nfMain .nfItem .nfSubC {top:100%  !important;left:0px  !important;}
+.nfMain .nfSubS:after{content:".";display:block;height:0px;clear:both;overflow:hidden;}
+	
+
+	/*---[Option: Vertical 2nd Level Subs]---*/
+	.nfMain .nfSubC .nfSubC .nfItem {float:none !important;}
+	.nfMain .nfSubC .nfItem {position:relative !important;}
+	.nfMain .nfSubC .nfItem .nfSubC {top:100% !important;left:0px !important;width:auto !important;}
+	.nfMain .nfSubC .nfSubC .nfItem .nfSubC {top:0px !important;left:100% !important;}

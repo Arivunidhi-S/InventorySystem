@@ -1,0 +1,133 @@
+label
+{
+    margin-top: 4px;
+    float:left;
+    width:125px;
+    color: #666;
+}
+
+.checkboxLabel
+{
+    margin-top: 4px;
+    float:none;
+    width:120px;
+    color: #333;
+}
+
+.exampleWrapper
+{
+    background: transparent url(images/registration-successful.gif) no-repeat left top;
+    width: 738px;
+    height: 528px;
+    position:relative;
+}
+
+.multiPage
+{
+    position:absolute;
+    top: 110px;
+    height: 390px;
+}
+
+.formList
+{
+    width: 683px;
+    list-style: none;
+    padding: 0 0 0 23px;
+}
+
+.formList li
+{
+    border-bottom: 1px solid #959485;
+    padding: 5px 0px;
+}
+
+.formList li.lastListItem
+{
+    border: none;
+}
+
+.textInput,
+textarea
+{
+    border: 1px solid;
+    border-color: #abadb3 #dbdfe6 #e3e9ef #e2e3ea;
+    background: #fff;
+}
+
+textarea
+{
+    font: normal 11px Verdana,sans-serif;
+}
+
+#newsletterOptions
+{
+    padding-top: 15px;
+}
+
+#newsletterOptions input
+{
+    margin-left: 50px;
+}
+
+.nextButton
+{
+    background: transparent url(images/button.gif) no-repeat 0 3px;
+    border: none;
+    width: 93px;
+    height: 25px;
+    margin-left:613px;
+    font: normal 12px Arial, sans-serif;
+    color: #fefefe;
+}
+
+.buttonSeparator
+{
+    width: 378px;
+    border-bottom: 1px solid #959485;
+    height: 1px;
+}
+
+.previewWrapper
+{
+    position:absolute;
+    right: 10px;
+    top:90px;
+    width: 250px;
+    padding-left: 18px;
+}
+
+.previewWrapper h2
+{
+    font-size: 21px;
+    padding-bottom: 10px;
+    color: #4386a5;
+    border-bottom: solid 1px #597f90;
+    margin-right: 18px;
+    margin-top: 20px;
+}
+
+.previewWrapper h3
+{
+    color: #4386a5;
+    font-size :12px;
+    margin-right: 18px;
+    margin-top: 20px;
+    border-bottom: dotted 1px #597f90;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.previewWrapper ul
+{
+    list-style:none;
+    margin:0 30px;
+}
+
+
+.fields .validator
+{
+    font-size: 15px;
+    padding-left: 3px;
+    vertical-align: middle;
+}

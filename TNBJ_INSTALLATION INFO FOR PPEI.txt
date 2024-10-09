@@ -1,0 +1,13 @@
+D:\Program Files (x86)\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\DATA
+
+
+Server Name: TNBJ-EDMS
+UserID: PPEI_SERBA
+Passs: serbadkits
+
+Database Name: InventorySystem
+
+App physical Path: C:\inetpub\wwwroot\InventorySystem
+
+
+App virtualPath: http://tnbj-edms/PPEI/login.aspx

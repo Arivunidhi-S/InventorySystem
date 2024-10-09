@@ -1,0 +1,8 @@
+.nfMain .nfItem {float:none;width:auto;}
+.nfMain .nfSubS .nfSubC {height:auto;}
+.nfMain .nfJSShowSub {position:relative;left:0px !important;top:0px  !important;}
+.nfMain .nfSubC .nfJSShowSub {position:absolute;top:0px  !important;left:100%  !important;}
+.nfPure .nfItem:hover>.nfSubC {position:relative;left:0px;top:0px;}
+.nfPure .nfSubC .nfItem:hover>.nfSubC {position:absolute;top:0px;left:100%;}
+
+	

@@ -1,0 +1,82 @@
+	/*~~~~~~~~~~~~~~~~ Menu Styles (global - all menus) ~~~~~~~~~~~~~~~~*/
+
+
+	/******[Main Menu]******/
+
+	/*Main Menu Container*/
+	.nfMain {background:#f00 url('../../images/gallery/menu/redBar/bg.gif');}
+
+	/*Items*/
+	.nfMain .nfItem {}
+
+	/*Item Links*/
+	.nfMain .nfLink {padding:10px 40px 10px 10px;background:transparent url('../../images/gallery/menu/redBar/divider.gif') no-repeat right top;color:#fff;font-family:arial,sans-sarif;font-size:13px;font-weight:700;text-decoration:none;}
+
+	/*Item Links - Parent*/
+	.nfMain .nfParent .nfLink {}
+
+	/*Item Links - Hover (duplicate styles below!)*/
+	.nfPure .nfItem:hover>.nfLink, .nfPure .nfItem:hover>*>.nfLink {background-color:#990101;}
+	.nfPure .nfLink:hover, .nfMain .nfJSHover {background-color:#990101;}
+
+	/*Item Links - Active*/
+	.nfMain .nfItem .nfJSActive {background-color:#990101;}
+	
+	/*Item Links - Focus*/
+	.nfPure .nfLink:focus, .nfMain .nfItem .nfJSFocus {}	
+
+	/*Item Links - Breadcrumbs*/
+	.nfMain .nfItem .nfJSBreadcrumb {}
+
+
+
+	/******[Sub Menus]******/
+	
+	/*Sub Menu Styles*/
+	.nfMain .nfSubS {background-color:#000;padding:0px 0px 5px 0px;}
+
+	/*Sub Menu Position Offsets - Level 2*/
+	.nfMain .nfSubS .nfSubC {margin:0px 0px 0px 0px;}
+
+	/*Sub Menu Styles - Level 2*/
+	.nfMain .nfSubS .nfSubS {border-width:1px;font-size:.9em;padding:20px;background-color:#222;}
+
+	/*Items*/
+	.nfMain .nfSubS .nfItem {}
+
+	/*Item Links*/
+	.nfMain .nfSubS .nfLink {background-image:none;padding:7px 80px 7px 7px;font-size:.75em;}
+
+	/*Item Links - Custom flowLeft Class*/
+	.nfMain .flowLeft .nfLink {padding:7px 80px 7px 30px;}
+
+	/*Item Links - Level 2*/
+	.nfMain .nfSubS .nfSubS .nfLink {padding:7px 40px 7px 15px;font-size:.75em;}
+
+	/*Item Links - Parent*/
+	.nfMain .nfSubS .nfParentLink {background:transparent url('../../images/gallery/menu/redBar/arrow_right.gif') no-repeat 96% 54%;}
+		
+	/*Item Links - Parent - Custom flowLeft Class*/
+	.nfMain .flowLeft .nfParentLink {background:transparent url('../../images/gallery/menu/redBar/arrow_left.gif') no-repeat 4% 54%;}
+	
+	/*Item Links - Hover (duplicate styles below!)*/
+	.nfMain .nfSubC .nfItem:hover>.nfLink {}
+	.nfMain .nfSubC .nfLink:hover, .nfMain .nfSubC .nfJSHover {}
+
+	/*Item Links - Scripted Hover*/
+	.nfMain .nfSubC .nfParent .nfJSHover {background-color:#990101;}
+		
+	/*Item Links - Active*/
+	.nfMain .nfSubS .nfItem .nfJSActive {background-image: url('../../images/gallery/menu/redBar/arrow_rightHL.gif');background-color:#990101;}
+
+	/*Item Links - Active - Custom flowLeft Class*/
+	.nfMain .flowLeft .nfItem .nfJSActive {background-image: url('../../images/gallery/menu/redBar/arrow_leftHL.gif');}
+	
+	/*Item Links - Focus*/
+	.nfPure .nfSubS .nfLink:focus, .nfMain .nfSubS .nfItem .nfJSFocus {}	
+
+	/*Item Links - Breadcrumbs*/
+	.nfMain .nfSubS .nfItem .nfJSBreadcrumb {}
+
+	
+

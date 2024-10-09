@@ -1,0 +1,165 @@
+
+
+/*~~~~~~~~~~~~~~~~ Menu Styles (global - all menus) ~~~~~~~~~~~~~~~~*/
+
+
+/****[Main Menu]****/
+
+/*Main Menu Container*/
+.nfMain
+{
+    background-color: #998956;
+    padding: 0px;
+    border-style: solid ;
+    border-width: 1px 1px 1px 1px;
+    border-color: black;
+    width: 1250px;
+}
+
+/*Items*/
+.nfMain .nfItem
+{
+    background-color: #998956;
+}
+/*Item Links*/
+.nfMain .nfLink
+{
+    border: solid 2px #000;
+    border-width: 0px 0px 0px 1px;
+    border-color: #333;
+    padding: 6px 30px 6px 15px;
+    font-family: Arial;
+    font-size: 14px;
+    color: Menu;
+    text-decoration: none;
+}
+
+/*Item Links - Parent*/
+.nfMain .nfParentLink
+{
+    background: transparent url('../../images/arrow2_down.gif') no-repeat 92% 52%;
+}
+
+/*Item Links - Hover (duplicate styles below!)*/
+.nfPure .nfItem:hover > .nfLink, .nfPure .nfItem:hover > * > .nfLink
+{
+    text-decoration: underline;
+}
+.nfPure .nfLink:hover, .nfMain .nfJSHover
+{
+    text-decoration: underline;
+}
+
+/*Item Links - Active*/
+.nfMain .nfItem .nfJSActive
+{
+    background-color: #998956;
+    color: Black;
+    text-decoration: underline;
+}
+
+/*Item Links - Focus*/
+.nfPure .nfLink:focus, .nfMain .nfItem .nfJSFocus
+{
+    text-decoration: underline;
+}
+
+/*Item Links - Breadcrumbs*/
+.nfMain .nfItem .nfJSBreadcrumb
+{
+}
+
+
+
+/****[Sub Menus]****/
+
+/*Sub Menu Position Offsets*/
+.nfMain .nfSubC
+{
+    margin: 0px 0px 0px 0px;
+}
+
+/*Sub Menu Styles*/
+.nfMain .nfSubS
+{
+    background-color: #998956;
+    padding: 15px;
+    border: solid 2px #000;
+    border-width: 1px 1px 1px 1px;
+    -moz-border-radius: 0px 0px 6px 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+}
+
+/*Sub Menu Position Offsets - Level 2*/
+.nfMain .nfSubS .nfSubC
+{
+    margin: -1px 0px 0px -0px;
+}
+
+/*Sub Menu Styles - Level 2*/
+.nfMain .nfSubS .nfSubS
+{
+    border-width: 1px;
+    -moz-border-radius: 0px 10px 10px 10px;
+    -webkit-border-bottom-left-radius: 10px;
+}
+
+/*Items*/
+.nfMain .nfSubC .nfItem
+{
+    background: none;
+    text-align: left;
+}
+
+/*Item Links*/
+.nfMain .nfSubS .nfLink
+{
+     background-color: Menu;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #999;
+    padding: 6px 40px 6px 5px;
+    font-size: 14px;
+    color: MenuText;
+}
+
+/*Item Links - Parent*/
+.nfMain .nfSubS .nfParentLink
+{
+    background-image: url('../../images/arrow2_right.gif');
+}
+
+/*Item Links - Last Child (ignored by IE8 & down)*/
+.nfMain .nfSubS .nfItem:last-child .nfLink
+{
+    border-width: 0px;
+}
+
+/*Item Links - Hover (duplicate styles below!)*/
+.nfMain .nfSubC .nfItem:hover > .nfLink
+{
+}
+.nfMain .nfSubC .nfLink:hover, .nfMain .nfSubC .nfJSHover
+{
+}
+
+/*Item Links - Active*/
+.nfMain .nfSubS .nfItem .nfJSActive
+{
+    background-color: #ddd;
+    color: #333;
+   /* text-decoration: underline;*/
+}
+
+/*Item Links - Focus*/
+.nfPure .nfSubS .nfLink:focus, .nfMain .nfSubS .nfItem .nfJSFocus
+{
+    color: #03f;
+}
+
+/*Item Links - Breadcrumbs*/
+.nfMain .nfSubS .nfItem .nfJSBreadcrumb
+{
+    background-color: #999;
+}

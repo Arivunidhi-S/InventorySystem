@@ -1,0 +1,82 @@
+	/*~~~~~~~~~~~~~~~~ Menu Styles (global - all menus) ~~~~~~~~~~~~~~~~*/
+
+
+	/******[Main Menu]******/
+
+	/*Main Menu Container*/
+	.nfMain {background-color:#55556a;background-image:url('../../images/nfHome_bg.gif');padding:0px 0px 0px 20px;}
+
+	/*Item Links*/
+	.nfMain .nfLink {border-style:solid;border-width:1px 0px 1px 1px;border-color:#333;padding:6px 40px 6px 20px;font-family:Arial;font-size:14px;color:#fff;text-decoration:none;}
+
+	/*Item Links - Parent*/
+	.nfMain .nfParent .nfLink {background-image:url('../../images/arrow1_down.gif');background-position:92% 52%;background-repeat:no-repeat;}
+	.nfMain .nfParent .nfSubS .nfLink {background-image:none;}
+
+	/*Item Links - Hover (duplicate styles below!)*/
+	.nfPure .nfItem:hover>.nfLink, .nfPure .nfItem:hover>*>.nfLink {text-decoration:underline;}
+	.nfPure .nfLink:hover, .nfMain .nfJSHover {text-decoration:underline;}
+
+	/*Item Links - Active*/
+	.nfMain .nfItem .nfJSActive {border-bottom-color:#e5ebf7;background-color:#e5ebf7;color:#425fa7;text-decoration:underline;}
+	
+	/*Item Links - Focus*/
+	.nfPure .nfLink:focus, .nfMain .nfItem .nfJSFocus {text-decoration:underline;}	
+
+	/*Item Links - Breadcrumbs*/
+	.nfMain .nfItem .nfJSBreadcrumb {}
+
+
+	/******[Sub Menus]******/
+	
+	/*Sub Menu Styles*/
+	.nfMain .nfSubS {background-color:#e5ebf7;padding:20px;}
+	.nfMain .nfSubS {border:solid 1px #333;border-width:0px 1px 1px 1px;background-color:#e5ebf7;-moz-border-radius-bottomLeft:10px;-moz-border-radius-bottomRight:10px;-webkit-border-bottom-right-radius:10px;-webkit-border-bottom-left-radius:10px;}
+
+	/*Sub Menu Position Offsets - Level 2*/
+	.nfMain .nfSubS .nfSubC {margin:-1px 0px 0px 0px;}
+
+	/*Sub Menu Styles - Level 2*/
+	.nfMain .nfSubS .nfSubS {border-width:1px;}
+	.nfMain .nfSubS .nfSubS {-moz-border-radius-topRight:10px;-moz-border-radius-bottomLeft:10px;-moz-border-radius-bottomRight:10px;-webkit-border-bottom-right-radius:10px;-webkit-border-bottom-left-radius:10px;-webkit-border-top-right-radius:10px;}
+
+	/*Item Links*/
+	.nfMain .nfSubS .nfLink {border-style:solid;border-width:0px 0px 1px 0px;border-color:#999;padding:6px 40px 6px 5px;font-size:13px;color:#55556a;}
+
+	/*Item Links - Parent*/
+	.nfMain .nfSubS .nfParent .nfLink {background-image:url('../../images/arrow1_right.gif');}
+	.nfMain .nfSubS .nfParent .nfSubS .nfLink {background-image:none;}
+	
+	/*Item Links - Last Child (ignored by IE8 & down)*/
+	.nfMain .nfSubS .nfItem:last-child .nfLink {border-width:0px;}
+	
+	/*Item Links - Hover (duplicate styles below!)*/
+	.nfMain .nfSubC .nfItem:hover>.nfLink {}
+	.nfMain .nfSubC .nfLink:hover, .nfMain .nfSubC .nfJSHover {}
+
+	/*Item Links - Active*/
+	.nfMain .nfSubS .nfItem .nfJSActive {background-color:#ccd0e3;color:#425fa7;text-decoration:underline;}
+	
+	/*Item Links - Focus*/
+	.nfPure .nfSubS .nfLink:focus, .nfMain .nfSubS .nfItem .nfJSFocus {color:#03f;}	
+
+	/*Item Links - Breadcrumbs*/
+	.nfMain .nfSubS .nfItem .nfJSBreadcrumb {}
+
+	
+	/******[Custom Example Menu Styles]******/
+
+	.custTitle {font-size:1em;margin:20px 0px 5px 0px;color:#55556a;font-weight:bold;}
+	.custTitleBoxed {font-size:.9em;margin:20px 0px 5px 0px;color:#55556a;padding:8px;border-style:solid;border-width:1px;background-color:#fff;border-color:#979cb6;-moz-border-radius:4px;-webkit-border-radius:4px;}
+	.custTitleTop {margin:5px 0px 5px 0px;}	
+	
+	.custMegaSub {width:460px;}
+	.custMegaItem {font-size:.9em;}
+
+	.megaContentRight {position:relative;width:140px;left:330px;}
+	.megaContentMiddle {position:absolute;width:140px;left:170px;}
+	.megaContentLeft {position:absolute;width:140px;}
+	.megaContentMiddle ul, .megaContentLeft ul, .megaContentRight ul {list-style-type:circle;margin:10px 0px 0px 24px;padding:0px;}
+
+	.megaTopTitle {width:440px;font-size:1em;color:#55556a;white-space:normal;margin-bottom:10px;padding:8px;border-style:solid;border-width:1px;background-color:#fff;border-color:#979cb6;-moz-border-radius:4px;-webkit-border-radius:4px;}
+	.megaTitle {color:#55556a;white-space:normal;}
